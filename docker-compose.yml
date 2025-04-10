@@ -1,4 +1,3 @@
-version: '2'
 services:
   app:
     image: thisisqasim/tastyigniter:3.7.7
