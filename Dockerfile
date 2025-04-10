@@ -7,6 +7,7 @@ RUN set -ex; \
 	apt-get install -y \
 		unzip \
 		openssl \
+		net-tools \
 		libcurl4-openssl-dev \
 		libjpeg-dev \
 		libpng-dev \
@@ -39,7 +40,7 @@ RUN a2enmod rewrite
 
 VOLUME /var/www/html
 
-ENV TASTYIGNITER_VERSION 3.7.7
+ENV TASTYIGNITER_VERSION=3.7.7
 
 RUN set -ex; \
 	curl -o tastyigniter.zip -fSL "https://codeload.github.com/tastyigniter/TastyIgniter/zip/v${TASTYIGNITER_VERSION}"; \

@@ -1,6 +1,6 @@
 services:
   app:
-    image: thisisqasim/tastyigniter:3.7.7
+    image: davidguillermo/tastyigniter:3.7.7
     hostname: tasty
     ports:
       - 80:80
