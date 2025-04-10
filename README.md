@@ -21,6 +21,15 @@ This is a customized fork of [ThisIsQasim/TastyIgniter](https://github.com/ThisI
 - Upgraded TastyIgniter to version **3.7.7**
 - Improved compatibility with **Docker Compose**
 
+## Image on Docker Hub
+
+You can use the image directly from Docker Hub:
+
+```bash
+docker pull davidguillermo/tastyigniter:3.7.7
+docker compose exec app php artisan igniter:passwd admin
+```
+
 ## Credits
 ThisIsQasim: https://github.com/ThisIsQasim/TastyIgniter
 TastyIgniter: https://github.com/tastyigniter/TastyIgniter
